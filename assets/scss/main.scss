@@ -1,0 +1,12 @@
+$primary:       #dd3834 ;
+$secondary:     #ffffff ;
+$light:         #f1f1f1 ;
+$dark:          #000000 ;
+
+@import 'bootstrap/scss/bootstrap.scss';
+@import 'bootstrap-vue/src/index.scss';
+
+@font-face {
+  font-family: 'papyrus';
+  src: url('../papyrus.ttf') format('truetype')
+}
