@@ -1,6 +1,7 @@
 <template>
   <div id="Index">
     <navbar />
+    home
   </div>
 </template>
 
