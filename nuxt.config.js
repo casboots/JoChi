@@ -30,7 +30,7 @@ export default {
         content: process.env.npm_package_description || ""
       }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: "icon", type: "image/x-icon", href: "/logo.png" }],
     script: [
       {
         src: 'https://polyfill.io/v3/polyfill.min.js?features=es2015%2CIntersectionObserver',
@@ -59,7 +59,7 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    "@nuxtjs/eslint-module"
+    // "@nuxtjs/eslint-module"
   ],
 
   /*
@@ -76,14 +76,6 @@ export default {
     bootstrapCSS: false,
     bootstrapVueCSS: false
   },
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.s[ac]ss$/i,
-  //       use: ["style-loader", "css-loader", "sass-loader"]
-  //     }
-  //   ]
-  // },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
