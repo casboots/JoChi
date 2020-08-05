@@ -1,6 +1,7 @@
 export default {
   vue: {
     config: {
+      compact: false,
       productionTip: true,
       devtools: false
     }
