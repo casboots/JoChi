@@ -1,5 +1,5 @@
 <template>
-  <div id="groepslessen.jumbotron">
+  <div id="ContactJumbotron">
     <b-jumbotron class="d-flex align-items-center justify-content-center text-center text-light rounded-0 m-0" :style="{'background': 'url(' + require('@/assets/home.jpg') + ') center center / cover no-repeat'}">
       <b-row class="m-0">
         <b-col sm="12">
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'index.jumbotron'
+  name: 'ContactJumbotron'
 }
 </script>
 

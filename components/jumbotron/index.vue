@@ -1,5 +1,5 @@
 <template>
-  <div id="index.jumbotron">
+  <div id="IndexJumbotron">
     <b-jumbotron class="d-flex align-items-center justify-content-center text-center text-light rounded-0 m-0" :style="{'background': 'url(' + require('@/assets/home.jpg') + ') center center / cover no-repeat'}">
       <b-row class="m-0">
         <b-col sm="12">
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'index.jumbotron'
+  name: 'IndexJumbotron'
 }
 </script>
 

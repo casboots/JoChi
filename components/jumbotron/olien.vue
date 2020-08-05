@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'olien.jumbotron'
+  name: 'OlienJumbotron'
 }
 </script>
 
@@ -24,16 +24,6 @@ export default {
   word-break: break-word;
   height: 40vh;
 }
-</style>
-
-
-<script>
-export default {
-  name: 'index.jumbotron'
-}
-</script>
-
-<style>
 .jumbotron {
   font-family: papyrus;
   word-break: break-word;
